@@ -48,6 +48,10 @@ npm run start
 Start a chat with `@_discordpuppet_bot:yourserver.com`. When it joins, type
 `help` in the chat to see instructions.
 
+**Warning**: Self-bots are against Discord's Terms of Service.
+When used with user tokens, you may get easily get your account disabled.
+When used with bot tokens, you may lose ability to add new bots or your account terminated.
+
 ### Linking a Discord bot account
 
 This is the recommended method, and allows Discord users to PM you through a
@@ -85,7 +89,6 @@ your.token-here`.
 
 ### Linking your Discord account
 
-**Warning**: Linking your user account's token is against Discord's Terms of Service.
 
 First [retrieve your Discord User Token](https://discordhelp.net/discord-token).
 If this don't work, use this method:
@@ -101,7 +104,7 @@ Then, to bridge a guild, type `bridgeguild <puppetId> <guildId>` and to unbridge
 
 ### Friends management
 
-**IMPORTANT! This is a USER-token ONLY feature, and as such against discords TOS. When developing this test-accounts got softlocked, USE AT YOUR OWN RISK!**
+**IMPORTANT! This is a USER-token ONLY feature, when developing this test-accounts got softlocked, USE AT YOUR OWN RISK!**
 
 You first need to enable friends management with `enablefriendsmanagement <puppetId>`.
 
